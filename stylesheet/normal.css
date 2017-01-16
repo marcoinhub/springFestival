@@ -1,0 +1,48 @@
+@charset "UTF-8";
+*{padding: 0;margin: 0}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.rightboard{
+    display: inline-block;
+    height: 100%;
+    background: url("../img/post.png") no-repeat center;
+    background-size: 100% 100%;
+
+}
+.mainboard{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bak.png") no-repeat center;
+    margin: 0 auto;
+    background-size:100% 100%;
+}
+.container{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 1080px){
+    
+}
+
+@media screen and  (min-width: 1280px){
+    .rightboard{
+        width: 500px;
+        width: 500px;
+        margin-right: -20px;
+    }
+}
+
+@media screen  and (min-width: 1920px) {
+
+}
